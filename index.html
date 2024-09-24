@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" 
+          href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity=
+"sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+             crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+</head>
+
+<body>
+    <!-- Navbar header section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h2 class="logo-heading">Pala Renuka</h2>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars hamburger-icon"></i>
+                <i class="fas fa-times cross-icon"></i>
+            </div>
+            <div class="menu">
+                <ul class="menu-list">
+                    <li class="menu-list-items">
+                        <a class="links" href="#home">
+                              Home
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#portfolio">
+                              Portfolio
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#about">
+                              About
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#services">
+                              Services
+                          </a>
+                    </li>
+                    <li class="menu-list-items">
+                        <a class="links" href="#contact">
+                              Contact Me
+                          </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main hero banner -->
+    <section id="home" class="hero">
+        <div class="intro">
+            <div class="headings">
+                <h3 class="greet-heading">Hello, I'm</h3>
+                <h1 class="my-heading">Pala Renuka</h1>
+                <h4 class="sub-heading">
+                    "Aspiring Software Engineer | Passionate About Web Development & Problem Solving"
+                </h4>
+            </div>
+            <div class="intro-buttons">
+                <button class="btn common-btn">Hire Me</button>
+                <a href="https://drive.google.com/file/d/1fxg8-3-m7J8mH8hnmSgOKwAkVX6SE60x/view?usp=sharing" class="btn ghost-btn" target="_blank">Get Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="portfolio-heading">
+            <h1 class="my-heading text-center">Featured Portfolio</h1>
+        </div>
+        <div class="portfolio-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/OIP.jpg" alt="Weather App">
+                        </div>
+                        <h3 class="greet-heading blue-text">Weather App</h3>
+                        <p class="small-para blue-text">Real-time weather data with forecast and location-based services.</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/tic-tac-toe-icon.jpg" alt="Tic-Tac-Toe">
+                        </div>
+                        <h3 class="greet-heading blue-text">Tic-Tac-Toe App</h3>
+                        <p class="small-para blue-text">Interactive game app for two players.</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/reactjs.jpeg" alt="Top Course Starter">
+                        </div>
+                        <h3 class="greet-heading blue-text">Top-Course-Starter</h3>
+                        <p class="small-para blue-text">React.js app for managing course material.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/Simple-To-Do-List-App.png" alt="To-Do List">
+                        </div>
+                        <h3 class="greet-heading blue-text">To-Do List App</h3>
+                        <p class="small-para blue-text">Task management tool built with HTML, CSS, and Bootstrap.</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/Shopping_cart.png" alt="E-Commerce Cart">
+                        </div>
+                        <h3 class="greet-heading blue-text">E-Commerce Cart</h3>
+                        <p class="small-para blue-text">React.js and Redux-based shopping cart for an online store.</p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card port-card">
+                        <div class="image">
+                            <img src="./Images/CppProjects.jpg" alt="C++ Projects">
+                        </div>
+                        <h3 class="greet-heading blue-text">C++ Projects</h3>
+                        <p class="small-para blue-text">Dynamic programming, pointers, and references in C++.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-text">
+            <h1 class="my-heading">About Me</h1>
+            <p class="lead-para">
+                "I am a 4th-year Engineering student with a passion for web development and problem-solving. My interest lies in creating responsive, dynamic web applications that not only meet technical requirements but also provide a smooth, intuitive user experience. With hands-on experience in HTML, CSS, JavaScript, and frameworks like React, I have developed several projects focusing on functionality and performance. I am always eager to learn new technologies, adapt to emerging trends, and take on challenging problems that push my skills further. My goal is to continuously grow as a developer and contribute to meaningful, impactful projects."
+            </p>
+            <p>
+                My core strengths lie in front-end technologies such as HTML, CSS, and JavaScript, combined with experience in responsive design to create applications optimized for all devices. I enjoy tackling real-world challenges through code and have worked on several projects that enhance user productivity and experience. My goal is to constantly evolve as a developer by learning new skills and contributing to projects that drive innovation and creativity."
+            </p>
+        </div>
+        <div class="about-image">
+            <img src="./Images/Renu_dp.jpg" alt="About Image">
+        </div>
+    </section>
+    <section class="services" id="services">
+        <div class="services-heading">
+            <h1 class="my-heading text-center">My Services</h1>
+        </div>
+        <div class="services-content">
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Design</h3>
+                        <p class="small-para">
+                            I design intuitive, user-friendly websites with a focus on clean layouts, responsive design, and engaging user experiences.
+                        </p>
+                        <p class="small-para">
+                            My web design approach is centered around aesthetics and functionality, ensuring that each design adapts well to different screen sizes and devices. I prioritize simplicity while maintaining a visually appealing style.
+                        </p>
+                        <p class="small-para">
+                            From wireframing to prototyping, I employ a user-centered design process that ensures the final product meets both client and user needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Web Development</h3>
+                        <p class="small-para">
+                            Full-stack web development services, including front-end development using React.js and back-end integration with databases.
+                        </p>
+                        <p class="small-para">
+                            I specialize in developing fast, efficient, and scalable web applications. My expertise includes crafting interactive UI components with React.js and managing complex state using Redux for real-time functionality.
+                        </p>
+                        <p class="small-para">
+                            On the back end, I ensure secure and robust connections to databases, focusing on API integration and back-end logic to support dynamic web features.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Database Management</h3>
+                        <p class="small-para">
+                            Experience in managing and optimizing databases, including MongoDB, to ensure efficient data storage and retrieval.
+                        </p>
+                        <p class="small-para">
+                            I handle everything from database setup and configuration to data modeling and optimization. This ensures data consistency, reliability, and improved performance for any web application.
+                        </p>
+                        <p class="small-para">
+                            I also focus on securing data and implementing backup solutions to prevent data loss, using best practices in database management and architecture design.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="my-row">
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">App Development</h3>
+                        <p class="small-para">
+                            I develop dynamic web applications, such as weather and e-commerce apps, with seamless user interfaces and real-time updates.
+                        </p>
+                        <p class="small-para">
+                            My focus is on creating applications that provide a smooth and intuitive user experience. From building weather apps that display real-time information to developing interactive shopping carts, my applications are designed to be both functional and user-friendly.
+                        </p>
+                        <p class="small-para">
+                            I integrate third-party APIs and ensure that the application adapts to various devices, offering dynamic content updates and responsive interactions.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fab fa-wordpress-simple"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Content Management</h3>
+                        <p class="small-para">
+                            Expertise in developing WordPress websites and managing content with an emphasis on SEO-friendly practices.
+                        </p>
+                        <p class="small-para">
+                            I ensure that your WordPress website is easy to manage and scalable for future updates. I also provide guidance on managing your site content effectively while keeping SEO in mind for better visibility in search engines.
+                        </p>
+                        <p class="small-para">
+                            I can customize WordPress themes, optimize site performance, and manage the back-end configuration for smooth content management operations.
+                        </p>
+                    </div>
+                </div>
+                <div class="my-col">
+                    <div class="my-card">
+                        <div class="icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="greet-heading blue-text">Problem Solving</h3>
+                        <p class="small-para">
+                            Strong skills in solving complex problems using dynamic programming and C++ development, focusing on optimized solutions.
+                        </p>
+                        <p class="small-para">
+                            I excel in breaking down complex challenges into manageable solutions, particularly in algorithmic and software design using C++. I have applied dynamic programming techniques to solve problems efficiently, reducing computational time and resource usage.
+                        </p>
+                        <p class="small-para">
+                            My expertise also extends to understanding pointers and memory management in C++, which helps in creating optimized and performant applications.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- Contact me section -->
+     <section class="contact" id="contact">
+        <div class="contact-heading">
+            <h1 class="my-heading text-center">Contact Me</h1>
+        </div>
+        <div class="contact-content">
+            <div class="contact-form-container">
+                <h1 class="greet-heading">Get In Touch</h1>
+                <form class="contact-form">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Name">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Email">
+                    <input class="form-controls" type="text" 
+                           placeholder="Your Phone">
+                    <textarea class="form-controls" 
+                              placeholder="Write your message" 
+                              name="message" id="" cols="30"
+                              rows="10">
+                      </textarea>
+                    <input class="form-btn btn common-btn" 
+                           type="submit" value="Send Message">
+                </form>
+            </div>
+            <div class="contact-details">
+                <h1 class="greet-heading">My Contact Details</h1>
+                <div class="details">
+                    <h5 class="contact-heading">EMAIL</h5>
+                    <p  class="contact-text">renuka456@gmail.com</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">PHONE</h5>
+                    <p class="contact-text">+91 0123456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">FAX</h5>
+                    <p class="contact-text">+91 0123456789</p>
+                </div>
+                <div class="details">
+                    <h5 class="contact-heading">ADDRESS</h5>
+                    <p class="contact-text">Iragavaram,West Godavari</p>
+                    
+                    <p>Sri Lakshmi Nagar Colony, 12-788</p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Footer section -->
+    <footer class="footer">
+        <div class="footer-content text-center">
+            <h4>
+                Copyright © 2024 All rights reserved |
+                This portfolio website template is created 
+                  by Pala Renuka
+            </h4>
+            <div class="social-links">
+                <div class="footer-menu">
+                    <ul class="footer-menu-list">
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li class="footer-list-items">
+                            <a class="footer-links" href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity=
+"sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+      </script>
+    <script src="script.js"></script>
+</body>
+
+</html>
